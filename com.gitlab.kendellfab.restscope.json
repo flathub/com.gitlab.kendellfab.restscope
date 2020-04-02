@@ -27,14 +27,15 @@
                 "install -d /app/share/icons/hicolor/512x512/apps",
                 "install -D resources/restscope-512.png /app/share/icons/hicolor/512x512/apps/com.gitlab.kendellfab.restscope.png",
                 "install -d /app/share/appdata",
-                "install -D resources/flatpak/${FLATPAK_ID}.appdata.xml -t /app/share/appdata/"
+                "install -D resources/flatpak/${FLATPAK_ID}.appdata.xml -t /app/share/appdata/",
+                "install -D resources/styles/* -t /app/share/gtksourceview-4/styles"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.com/kendellfab/rest-scope",
-                    "tag": "v0.33",
-                    "commit": "c39ed2d57ecf20edb825321fa4cb913979e7fb60"
+                    "tag": "v0.34",
+                    "commit": "55a07e55e18e34fabecf4121a61179c18b6a9615"
                 },
                 "generated-sources.json"
             ]
