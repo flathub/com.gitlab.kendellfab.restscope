@@ -34,8 +34,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/kendellfab/rest-scope",
-                    "tag": "v0.34",
-                    "commit": "55a07e55e18e34fabecf4121a61179c18b6a9615"
+                    "tag": "v0.35",
+                    "commit": "d5a30a8cd6eebf2f99ba737ae34b69a5be83fb23"
                 },
                 "generated-sources.json"
             ]
